@@ -23,7 +23,7 @@ const activateMenuAtCurrentSection = (section) => {
     //verificar se a seção passou da linha
     //quais dados vou precisar?
     const sectionTop = section.offsetTop
-    const sectionHeight = section.offsetHeigth
+    const sectionHeight = section.offsetHeight
 
     //o topo da seção cheou ou ultrapssou a linha alvo
     const sectionTopReachOrPassedTargetLine = targetLine >= sectionTop
